@@ -15,8 +15,7 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.*;
 
 /** AndroidAutostartPlugin */
 public class AndroidAutostartPlugin implements FlutterPlugin, MethodCallHandler {
@@ -188,7 +187,7 @@ public class AndroidAutostartPlugin implements FlutterPlugin, MethodCallHandler 
 
   public static void navigateAutoStartSetting(@NonNull Result result) {
     String systemManufacturer = android.os.Build.MANUFACTURER;
-    Log.e("Util", "******************当前手机型号为：" + systemManufacturer);
+    // Log.e("Util", "******************当前手机型号为：" + systemManufacturer);
 
     Set<Map.Entry<String, List<String>>> entries = intents.entrySet();
     boolean has = false;
