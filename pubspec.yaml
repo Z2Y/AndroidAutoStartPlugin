@@ -1,6 +1,6 @@
 name: android_autostart
 description: You can request to enable AutoStart with Android AutoStart.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/Jeferson505/AndroidAutoStartPlugin
 
 environment:
