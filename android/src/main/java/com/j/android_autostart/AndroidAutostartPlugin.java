@@ -185,7 +185,7 @@ public class AndroidAutostartPlugin implements FlutterPlugin, MethodCallHandler 
     }
   }
 
-  public static void navigateAutoStartSetting(@NonNull Result result) {
+  public void navigateAutoStartSetting(@NonNull Result result) {
     String systemManufacturer = android.os.Build.MANUFACTURER;
     // Log.e("Util", "******************当前手机型号为：" + systemManufacturer);
 
